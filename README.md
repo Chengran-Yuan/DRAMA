@@ -17,7 +17,7 @@ Motion planning is a challenging task to generate safe and feasible trajectories
 
 If you find our work interesting, please consider citing our paper:
 
-     @misc{yuan2024dramaefficientendtoendmotion,
+     @misc{yuan2024drama,
           title={DRAMA: An Efficient End-to-end Motion Planner for Autonomous Driving with Mamba}, 
           author={Chengran Yuan and Zhanqi Zhang and Jiawei Sun and Shuo Sun and Zefan Huang and Christina Dao Wen Lee and Dongen Li and Yuhang Han and Anthony Wong and Keng Peng Tee and Marcelo H. Ang Jr au2},
           year={2024},
