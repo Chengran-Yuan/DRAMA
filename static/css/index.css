@@ -133,5 +133,9 @@ body {
   font-size: smaller;
 }
 
-
+.centered-image {
+  display: block; /* 将图片作为块级元素，使其能够被margin控制 */
+  margin: 0 auto; /* 自动设置左右外边距，居中显示 */
+  width: 60%; /* 将图片缩小为原始宽度的80% */
+}
 
