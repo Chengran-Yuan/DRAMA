@@ -52,7 +52,10 @@ def run_pdm_score(args: List[Dict[str, Union[List[str], DictConfig]]]) -> List[D
     assert (
         simulator.proposal_sampling == scorer.proposal_sampling
     ), "Simulator and scorer proposal sampling has to be identical"
-    agent: AbstractAgent = instantiate(cfg.agent)
+    if cfg.eval_on_gpu:
+        agent: AbstractAgent = instantiate(cfg.agent).to('cuda')
+    else:
+        agent: AbstractAgent = instantiate(cfg.agent)
     agent.initialize()
 
     metric_cache_loader = MetricCacheLoader(Path(cfg.metric_cache_path))
