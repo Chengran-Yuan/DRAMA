@@ -25,15 +25,12 @@ Kindly find the scripts in `scripts/training/run_drama_training.sh` and `scripts
 ## BibTeX (updated)
 
 
-     @misc{yuan2024dramaefficientendtoendmotion,
-      title={DRAMA: An Efficient End-to-end Motion Planner for Autonomous Driving with Mamba}, 
-      author={Chengran Yuan and Zhanqi Zhang and Jiawei Sun and Shuo Sun and Zefan Huang and Christina Dao Wen Lee and Dongen Li and Yuhang Han and Anthony Wong and Keng Peng Tee and Marcelo H. Ang Jr},
-      year={2024},
-      eprint={2408.03601},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2408.03601}, 
-}
+     @article{yuan2024drama,
+       title={Drama: An efficient end-to-end motion planner for autonomous driving with mamba},
+       author={Yuan, Chengran and Zhang, Zhanqi and Sun, Jiawei and Sun, Shuo and Huang, Zefan and Lee, Christina Dao Wen and Li, Dongen and Han, Yuhang and Wong, Anthony and Tee, Keng Peng and others},
+       journal={arXiv preprint arXiv:2408.03601},
+       year={2024}
+     }
 
 ## License
 
